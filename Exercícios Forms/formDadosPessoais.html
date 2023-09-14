@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados do Usuário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <label for="nome">Nome:
+            <input type="text" id="nome" name="nome">
+        </label>
+        <label for="idade">Idade:
+            <input type="text" name="idade" id="idade">
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Dados Profissionais</legend>
+        <label for="escolaridade">Escolaridade:</label>
+        <select name="escolaridade" id="escolaridade ">
+            <option value="fundamental">Ensino Fundamental</option>
+            <option value="medio">Ensino Médio</option>
+            <option value="superior">Ensino Superior</option>
+            <option value="posgrad">Pós-graduação</option>
+        </select><br>
+        <label for="">Área de atuação:
+            <input type="radio" name="gerencia" id="gerencia" value="gerencia">
+            Gerência
+        </label>
+        <label for="">
+            <input type="radio" name="financeiro" id="financeiro">
+            Financeiro
+        </label>
+        <label for="">
+            <input type="radio" name="recepcao" id="recepcao">
+            Recepção
+        </label>
+    </fieldset>
+</body>
+
+</html>
